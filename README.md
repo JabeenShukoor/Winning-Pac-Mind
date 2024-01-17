@@ -2,8 +2,8 @@
 Implementing an AI agent capable of winning the classic Pac-Man arcade game using a Markov Decision Process solver that follows a value iteration policy
 
 *Please note that
-The implementation of the Pacman agent is a part of 6CCS3AIN coursework and has used UC Berkley's open-source Pacman project http://ai.berkeley.edu/ 
-mdpAgents.py is the file that contains the MDP solver and is meant to be used with the UC Berkley's Pacman game. (I claim no credit for that part of the code)*
+The implementation of the Pacman agent is a part of 6CCS3AIN coursework and has used UC Berkley's open-source Pacman project http://ai.berkeley.edu/*
+*mdpAgents.py is the file that contains the MDP solver and is meant to be used with the UC Berkley's Pacman game. (I claim no credit for that part of the code)*
 
 UC Berkley Pacman Game: http://ai.berkeley.edu/project_overview.html
 The code only supports Python 2.7

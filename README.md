@@ -12,7 +12,7 @@ The code only supports Python 2.7
 # Introduction
 The Pacman agent is situated in a non-deterministic world. This means that there is free will for Pacman to choose which direction to move. Using an MDP solver, we can compute the action to take which is achieved by value iteration. This allows the agent to make the right decisions and eventually win the game. To win games Pacman has to eat all the food. 
 
-#MDP Solver 
+# MDP Solver 
 For each move, the Markov Decision Process consists of
 1. Finite set of states denoted by S
 2. Finite set of actions denoted by A

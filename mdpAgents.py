@@ -3,14 +3,10 @@
 #
 # Version 1
 #
-# The starting point for CW2.
-#
 # Intended to work with the PacMan AI projects from:
 #
 # http://ai.berkeley.edu/
-#
-# These use a simple API that allow us to control Pacman's interaction with
-# the environment adding a layer on top of the AI Berkeley code.
+
 #
 # As required by the licensing agreement for the PacMan AI we have:
 #
@@ -24,13 +20,9 @@
 # (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
 # Student side autograding was added by Brad Miller, Nick Hay, and
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
-#Submitted By: Jabeen Thamarassery Shukoor
-#knumber : k23032210
-#Programme : Msc AI
 #REFERENCES : 
 #1. The Class Grid and the functions for manipulating maps here are taken from the code written by Simon Parsons, based on the code in pacmanAgents.py
-#2. Jay Down, MDP-PacMan-Agent (2019), GitHub Repository (https://github.com/Jay-Down/MDP-PacMan-Agent)
-#3. AI Reasoning and Decision Making Practicals Week - 4,5,6
+#2. Jay Down, MDP-PacMan-Agent (2019), GitHub Repository (https://github.com/Jay-Down/MDP-PacMan-Agent) for creating the ghost radius 
 
 
 from pacman import Directions

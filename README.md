@@ -21,6 +21,12 @@ For each move, the Markov Decision Process consists of
 5. and a Discount factor from the range [0,1]
 
 Following this, the value iteration process is applied to the Bellman equation and the process is iterated until the value converges and we get an optimal policy. 
+Reward settings :
+FOOD REWARD : 20
+CAPSULE REWARD : 40
+GHOST PENALTY : -100
+NEIGHBOURING GHOST PENALTY : -50
+EMPTY SPACE REWARD = -1
 
 
 

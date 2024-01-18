@@ -12,6 +12,9 @@ The code only supports Python 2.7
 # Introduction
 The Pacman agent is situated in a non-deterministic world. This means that there is free will for Pacman to choose which direction to move. Using an MDP solver, we can compute the action to take which is achieved by value iteration. This allows the agent to make the right decisions and eventually win the game. To win games Pacman has to eat all the food. 
 
+![image](https://github.com/JabeenShukoor/Winning-Pac-Mind/assets/81976818/2a760479-0c2f-4634-855f-fdbace920942)
+
+
 # MDP Solver 
 For each move, the Markov Decision Process consists of
 1. Finite set of states denoted by S
@@ -29,10 +32,10 @@ GHOST PENALTY : -100
 NEIGHBOURING GHOST PENALTY : -50
 EMPTY SPACE REWARD = -1*
 
-To run pacman in small grid, use the following line of code 
+To run pacman in small grid, use the following line of code: 
 python pacman.py -q -n 10 -p MDPAgent -l smallGrid
 
-To run pacman in medium grid, use the following line of code 
+To run pacman in medium grid, use the following line of code: 
 python pacman.py -q -n 10 -p MDPAgent -l mediumClassic
 
 *You can change the number of times it runs. The above code runs the game 10 times*

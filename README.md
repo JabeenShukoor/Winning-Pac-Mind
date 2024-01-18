@@ -24,8 +24,8 @@ For each move, the Markov Decision Process consists of
 5. and a Discount factor from the range [0,1]
 
 Following this, the value iteration process is applied to the Bellman equation and the process is iterated until the value converges and we get an optimal policy. 
-Reward settings :
 
+Reward settings :
 *FOOD REWARD : 20
 CAPSULE REWARD : 40
 GHOST PENALTY : -100
@@ -33,11 +33,12 @@ NEIGHBOURING GHOST PENALTY : -50
 EMPTY SPACE REWARD = -1*
 
 To run pacman in small grid, use the following line of code: 
-python pacman.py -q -n 10 -p MDPAgent -l smallGrid
+``` python pacman.py -q -n 10 -p MDPAgent -l smallGrid``` 
 
 To run pacman in medium grid, use the following line of code: 
-python pacman.py -q -n 10 -p MDPAgent -l mediumClassic
-
+``` python pacman.py -q -n 10 -p MDPAgent -l mediumClassic``` 
+*-l is shorthand for -layout. -p is shorthand for -pacman. -q runs the game without the
+interface*
 *You can change the number of times it runs. The above code runs the game 10 times*
 
 
